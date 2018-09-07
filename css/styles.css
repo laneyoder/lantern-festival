@@ -31,7 +31,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .about #intro {
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 300;
@@ -40,7 +39,6 @@
     margin: 0;
     margin-top: 33px;
   }
-
   .about img {
     display: none;
   }
@@ -53,12 +51,25 @@
     margin: 0;
   }
 
-  .details {
+  .copyright {
+    background-color: #303030;
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .copyright p {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .details {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .details li {
     font-family: "Libre Franklin", sans-serif;
     font-size: 1.4em;
@@ -91,22 +102,25 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .features img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
   }
-
   .features ul {
     padding-left: 0;
   }
 
-  footer .final {
+  .final {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+  .final p {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   footer img {
@@ -117,27 +131,14 @@
     display: block;
   }
 
-  footer .final p {
+  header {
+    background-image: url("images/head-lanterns.png");
+    display: flex;
+    background-repeat: no-repeat;
     width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
-
-  footer .copyright {
-    background-color: #303030;
-    width: 100%;
-    text-align: center;
-    margin-top: 85px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  footer .copyright p {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   header h1 {
     font-size: 2.6em;
     color: #ffffff;
@@ -148,7 +149,6 @@
     margin: 0;
     margin-top: 2px;
   }
-
   header p {
     font-size: 1.7em;
     color: #ffffff;
@@ -160,22 +160,12 @@
     font-weight: 200;
   }
 
-  header {
-    background-image: url("images/head-lanterns.png");
-    display: flex;
-    background-repeat: no-repeat;
-    width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   main {
     width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
-
-  .main p {
+  main p {
     font-family: "Libre Franklin", sans-serif;
     font-size: 1.4em;
     font-weight: 100;
@@ -186,15 +176,12 @@
   .main .food {
     display: none;
   }
-
   .main .tablet {
     display: none;
   }
-
   .main .hd {
     display: none;
   }
-
   .main .desktop-hd {
     display: none;
   }
@@ -227,21 +214,17 @@
     margin-top: 45px;
     width: 90%;
   }
-
   .about #intro {
     font-weight: 200;
     margin-top: 0;
   }
-
   .about img {
     display: block;
     width: 340px;
   }
-
   .about .lantern {
     width: 48%;
   }
-
   .about .experience {
     width: 48%;
   }
@@ -249,11 +232,9 @@
   .details {
     width: 90%;
   }
-
   .details li {
     font-weight: 200;
   }
-
   .details a {
     margin-bottom: 50px;
   }
@@ -267,7 +248,6 @@
   .features li {
     width: 38%;
   }
-
   .features ul {
     display: flex;
     flex-flow: wrap;
@@ -276,21 +256,19 @@
     margin-right: auto;
   }
 
+  header {
+    background-image: url("images/head-lanterns-tablet.png");
+    width: 760px;
+  }
   header h1 {
     font-size: 4.6em;
     line-height: 40px;
   }
-
   header p {
     font-size: 2.4em;
     margin-top: 15px;
     margin-bottom: 15px;
     line-height: 11px;
-  }
-
-  header {
-    background-image: url("images/head-lanterns-tablet.png");
-    width: 760px;
   }
 
   main {
@@ -301,19 +279,15 @@
     line-height: 18px;
     margin-top: 20px;
   }
-
   .main .food {
     display: block;
   }
-
   .main .phone {
     display: none;
   }
-
   .main .tablet {
     display: block;
   }
-
   .main .desktop {
     display: none;
   }
@@ -326,15 +300,12 @@
   .about {
     width: 80%;
   }
-
   .about img {
     width: 465px;
   }
-
   .about .lantern {
     width: 48%;
   }
-
   .about .experience {
     width: 48%;
   }
@@ -342,11 +313,9 @@
   .details {
     width: 70%;
   }
-
   .details li {
     font-weight: 200;
   }
-
   .details a {
     margin-bottom: 50px;
   }
@@ -359,34 +328,29 @@
     flex-flow: nowrap;
     width: 98%;
   }
-
   .features li {
     width: 24%;
   }
-
   .features h2 {
     margin-top: 0;
   }
-
   .features li {
     width: 22%;
-  }
-
-  header h1 {
-    font-size: 6.4em;
-    line-height: 55px;
-  }
-
-  header p {
-    font-size: 3.6em;
-    margin-top: 33px;
-    margin-bottom: 25px;
-    line-height: 3px;
   }
 
   header {
     background-image: url("images/head-lanterns-desktop.png");
     width: 1200px;
+  }
+  header h1 {
+    font-size: 6.4em;
+    line-height: 55px;
+  }
+  header p {
+    font-size: 3.6em;
+    margin-top: 33px;
+    margin-bottom: 25px;
+    line-height: 3px;
   }
 
   main {
@@ -396,11 +360,9 @@
   .main p {
     margin-top: 20px;
   }
-
   .main .tablet-lantern {
     display: none;
   }
-
   .main .desktop {
     display: block;
   }
@@ -414,14 +376,12 @@
   }
 }
 @media only screen and (min-width: 2500px) {
-  .about a {
-    margin-top: 160px;
-  }
-
   .about {
     width: 58%;
   }
-
+  .about a {
+    margin-top: 160px;
+  }
   .about img {
     width: 700px;
   }
@@ -439,7 +399,6 @@
     flex-flow: nowrap;
     width: 80%;
   }
-
   .features li {
     width: 22%;
   }
@@ -456,15 +415,12 @@
   .main p {
     line-height: 24px;
   }
-
   .main .tablet {
     display: none;
   }
-
   .main .hd {
     display: block;
   }
-
   .main .desktop {
     display: none;
   }
