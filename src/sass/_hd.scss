@@ -1,0 +1,68 @@
+@media only screen and (min-width: 2500px) {
+  .about {
+    width: 58%;
+
+    a {
+      margin-top: 160px;
+    }
+
+    img {
+      width: 700px;
+    }
+  }
+
+  .details {
+    width: 60%;
+  }
+
+  h2 {
+    margin-top: 90px;
+    margin-bottom: 25px;
+  }
+
+  .features {
+    ul {
+      flex-flow: nowrap;
+      width: 80%;
+    }
+
+    li {
+      width: 22%;
+    }
+  }
+
+  header {
+    background-image: url("images/lanterns-large.png");
+    width: 2500px;
+  }
+
+  main {
+    width: 2500px;
+  }
+
+  .main {
+    p {
+      line-height: 24px;
+    }
+
+    .tablet {
+      display: none;
+    }
+
+    .hd {
+      display: block;
+    }
+
+    .desktop {
+      display: none;
+    }
+  }
+
+  .title-box {
+    width: 830px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 101px;
+    margin-top: 101px;
+  }
+}

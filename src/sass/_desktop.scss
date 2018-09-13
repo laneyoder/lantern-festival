@@ -1,0 +1,95 @@
+@media only screen and (min-width: 1200px) {
+  .about {
+    width: 80%;
+
+    img {
+      width: 465px;
+    }
+
+    .lantern {
+      width: 48%;
+    }
+
+    .experience {
+      width: 48%;
+    }
+  }
+
+  .details {
+    width: 70%;
+
+    li {
+      font-weight: 200;
+    }
+
+    a {
+      margin-bottom: 50px;
+    }
+  }
+
+  h2 {
+    margin-top: 50px;
+  }
+
+  .features {
+    ul {
+      flex-flow: nowrap;
+      width: 98%;
+    }
+
+    li {
+      width: 24%;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    li {
+      width: 22%;
+    }
+  }
+
+  header {
+    background-image: url("images/head-lanterns-desktop.png");
+    width: 1200px;
+
+    h1 {
+      font-size: 6.4em;
+      line-height: 55px;
+    }
+
+    p {
+      font-size: 3.6em;
+      margin-top: 33px;
+      margin-bottom: 25px;
+      line-height: 3px;
+    }
+  }
+
+  main {
+    width: 1200px;
+  }
+
+  .main {
+    p {
+      margin-top: 20px;
+    }
+
+    .tablet-lantern {
+      display: none;
+    }
+
+    .desktop {
+      display: block;
+    }
+  }
+
+  .title-box {
+    width: 583px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 101px;
+    margin-top: 101px;
+  }
+}

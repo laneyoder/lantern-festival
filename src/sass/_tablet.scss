@@ -1,0 +1,111 @@
+@media only screen and (min-width: 760px) {
+  a {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    width: 90%;
+
+    #intro {
+      font-weight: 200;
+      margin-top: 0;
+    }
+
+    img {
+      display: block;
+      width: 340px;
+    }
+
+    .lantern {
+      width: 48%;
+    }
+
+    .experience {
+      width: 48%;
+    }
+  }
+
+  .details {
+    width: 90%;
+
+    li {
+      font-weight: 200;
+    }
+
+    a {
+      margin-bottom: 50px;
+    }
+  }
+
+  h2 {
+    font-size: 3.6em;
+    margin-top: 38px;
+    margin-bottom: -10px;
+  }
+
+  .features {
+    li {
+      width: 38%;
+    }
+
+    ul {
+      @include margin-auto;
+      display: flex;
+      flex-flow: wrap;
+      width: 90%;
+    }
+  }
+
+  header {
+    background-image: url("images/head-lanterns-tablet.png");
+    width: 760px;
+
+    h1 {
+      font-size: 4.6em;
+      line-height: 40px;
+    }
+
+    p {
+      font-size: 2.4em;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      line-height: 11px;
+    }
+  }
+
+  main {
+    width: 760px;
+  }
+
+  .main {
+    p {
+      line-height: 18px;
+      margin-top: 20px;
+    }
+
+    .food {
+      display: block;
+    }
+
+    .phone {
+      display: none;
+    }
+
+    .tablet {
+      display: block;
+    }
+
+    .desktop {
+      display: none;
+    }
+  }
+
+  .title-box {
+    width: 364px;
+  }
+}
