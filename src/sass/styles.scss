@@ -1,0 +1,491 @@
+/*
+    Document   : styles.css
+    Created on : 2017-01-14 08:00 PM
+    Author     : lyoder
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500|Libre+Franklin:100,200,300,400,500');
+$main-font-family: 'Alegreya Sans SC', sans-serif;
+@media only screen and (min-width: 320px) {
+  a {
+    background-color: #FE014A;
+    width: 138px;
+    font-family: $main-font-family;
+    font-size: 1.29em;
+    line-height: 21px;
+    color: #C7C7C7;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+  }
+
+  .about {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    #intro {
+      font-family: $main-font-family;
+      font-weight: 300;
+      font-size: 1.8em;
+      text-align: center;
+      margin: 33px 0 0;
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  body {
+    font-size: 62.5%;
+    width: 100%;
+    background-color: #000000;
+    color: #C7C7C7;
+    margin: 0;
+  }
+
+  .copyright {
+    background-color: #303030;
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    p {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .details {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    li {
+      font-family: 'Libre Franklin', sans-serif;
+      font-size: 1.4em;
+      font-weight: 300;
+      line-height: 30px;
+    }
+  }
+
+  h2 {
+    font-family: $main-font-family;
+    font-size: 3.2em;
+    text-align: center;
+    line-height: 39px;
+    margin-top: 60px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-size: 1.4em;
+    font-weight: 200;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+
+  .features {
+    li {
+      list-style: none;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 35px;
+    }
+
+    ul {
+      padding-left: 0;
+    }
+  }
+
+  .final {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    p {
+      width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  footer img {
+    margin-top: 85px;
+    width: 80%px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  header {
+    background-image: url("images/head-lanterns.png");
+    display: flex;
+    background-repeat: no-repeat;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1 {
+      font-size: 2.6em;
+      color: #ffffff;
+      font-family: $main-font-family;
+      font-weight: 300;
+      text-align: center;
+      line-height: 25px;
+      margin: 2px 0 0;
+    }
+
+    p {
+      font-size: 1.7em;
+      color: #ffffff;
+      line-height: 5px;
+      text-align: center;
+      font-family: $main-font-family;
+      margin-top: 11px;
+      margin-bottom: 11px;
+      font-weight: 200;
+    }
+  }
+
+  main {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+      font-family: 'Libre Franklin', sans-serif;
+      font-size: 1.4em;
+      font-weight: 100;
+      line-height: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  .main {
+    .food {
+      display: none;
+    }
+
+    .tablet {
+      display: none;
+    }
+
+    .hd {
+      display: none;
+    }
+
+    .desktop-hd {
+      display: none;
+    }
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .title-box {
+    width: 189px;
+    background-color: rgba(0,0,0,0.6);
+    margin: 33.5px auto;
+    display: block;
+    padding: 2px;
+  }
+}
+@media only screen and (min-width: 760px) {
+  a {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    width: 90%;
+
+    #intro {
+      font-weight: 200;
+      margin-top: 0;
+    }
+
+    img {
+      display: block;
+      width: 340px;
+    }
+
+    .lantern {
+      width: 48%;
+    }
+
+    .experience {
+      width: 48%;
+    }
+  }
+
+  .details {
+    width: 90%;
+
+    li {
+      font-weight: 200;
+    }
+
+    a {
+      margin-bottom: 50px;
+    }
+  }
+
+  h2 {
+    font-size: 3.6em;
+    margin-top: 38px;
+    margin-bottom: -10px;
+  }
+
+  .features {
+    li {
+      width: 38%;
+    }
+
+    ul {
+      display: flex;
+      flex-flow: wrap;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  header {
+    background-image: url("images/head-lanterns-tablet.png");
+    width: 760px;
+
+    h1 {
+      font-size: 4.6em;
+      line-height: 40px;
+    }
+
+    p {
+      font-size: 2.4em;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      line-height: 11px;
+    }
+  }
+
+  main {
+    width: 760px;
+  }
+
+  .main {
+    p {
+      line-height: 18px;
+      margin-top: 20px;
+    }
+
+    .food {
+      display: block;
+    }
+
+    .phone {
+      display: none;
+    }
+
+    .tablet {
+      display: block;
+    }
+
+    .desktop {
+      display: none;
+    }
+  }
+
+  .title-box {
+    width: 364px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .about {
+    width: 80%;
+
+    img {
+      width: 465px;
+    }
+
+    .lantern {
+      width: 48%;
+    }
+
+    .experience {
+      width: 48%;
+    }
+  }
+
+  .details {
+    width: 70%;
+
+    li {
+      font-weight: 200;
+    }
+
+    a {
+      margin-bottom: 50px;
+    }
+  }
+
+  h2 {
+    margin-top: 50px;
+  }
+
+  .features {
+    ul {
+      flex-flow: nowrap;
+      width: 98%;
+    }
+
+    li {
+      width: 24%;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    li {
+      width: 22%;
+    }
+  }
+
+  header {
+    background-image: url("images/head-lanterns-desktop.png");
+    width: 1200px;
+
+    h1 {
+      font-size: 6.4em;
+      line-height: 55px;
+    }
+
+    p {
+      font-size: 3.6em;
+      margin-top: 33px;
+      margin-bottom: 25px;
+      line-height: 3px;
+    }
+  }
+
+  main {
+    width: 1200px;
+  }
+
+  .main {
+    p {
+      margin-top: 20px;
+    }
+
+    .tablet-lantern {
+      display: none;
+    }
+
+    .desktop {
+      display: block;
+    }
+  }
+
+  .title-box {
+    width: 583px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 101px;
+    margin-top: 101px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .about {
+    width: 58%;
+
+    a {
+      margin-top: 160px;
+    }
+
+    img {
+      width: 700px;
+    }
+  }
+
+  .details {
+    width: 60%;
+  }
+
+  h2 {
+    margin-top: 90px;
+    margin-bottom: 25px;
+  }
+
+  .features {
+    ul {
+      flex-flow: nowrap;
+      width: 80%;
+    }
+
+    li {
+      width: 22%;
+    }
+  }
+
+  header {
+    background-image: url("images/lanterns-large.png");
+    width: 2500px;
+  }
+
+  main {
+    width: 2500px;
+  }
+
+  .main {
+    p {
+      line-height: 24px;
+    }
+
+    .tablet {
+      display: none;
+    }
+
+    .hd {
+      display: block;
+    }
+
+    .desktop {
+      display: none;
+    }
+  }
+
+  .title-box {
+    width: 830px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 101px;
+    margin-top: 101px;
+  }
+}
