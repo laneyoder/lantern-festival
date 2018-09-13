@@ -8,8 +8,16 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500|Libre+Franklin:100,200,300,400,500');
 $main-font-family: 'Alegreya Sans SC', sans-serif;
+$body-font-family: 'Libre Franklin', sans-serif;
+$font-weight-regular: 300;
+@mixin margin-auto(){
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (min-width: 320px) {
   a {
+    @include margin-auto;
     background-color: #FE014A;
     width: 138px;
     font-family: $main-font-family;
@@ -17,8 +25,6 @@ $main-font-family: 'Alegreya Sans SC', sans-serif;
     line-height: 21px;
     color: #C7C7C7;
     text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
     text-align: center;
     padding-top: 10px;
@@ -28,13 +34,12 @@ $main-font-family: 'Alegreya Sans SC', sans-serif;
   }
 
   .about {
+    @include margin-auto;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
 
     #intro {
       font-family: $main-font-family;
-      font-weight: 300;
+      font-weight: $font-weight-regular;
       font-size: 1.8em;
       text-align: center;
       margin: 33px 0 0;
@@ -62,21 +67,19 @@ $main-font-family: 'Alegreya Sans SC', sans-serif;
     padding-bottom: 20px;
 
     p {
+      @include margin-auto;
       width: 80%;
-      margin-left: auto;
-      margin-right: auto;
     }
   }
 
   .details {
+    @include margin-auto;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
 
     li {
-      font-family: 'Libre Franklin', sans-serif;
+      font-family: $body-font-family;
       font-size: 1.4em;
-      font-weight: 300;
+      font-weight: $font-weight-regular;
       line-height: 30px;
     }
   }
@@ -87,14 +90,14 @@ $main-font-family: 'Alegreya Sans SC', sans-serif;
     text-align: center;
     line-height: 39px;
     margin-top: 60px;
-    font-weight: 300;
+    font-weight: $font-weight-regular;
     letter-spacing: 1px;
   }
 
   h3 {
     font-size: 1.4em;
     font-weight: 200;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: $body-font-family;
     line-height: 20px;
     margin-bottom: 0;
     margin-top: 50px;
@@ -102,16 +105,14 @@ $main-font-family: 'Alegreya Sans SC', sans-serif;
 
   .features {
     li {
+      @include margin-auto;
       list-style: none;
       width: 80%;
-      margin-left: auto;
-      margin-right: auto;
     }
 
     img {
+      @include margin-auto;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
       margin-top: 35px;
     }
 
@@ -121,38 +122,34 @@ $main-font-family: 'Alegreya Sans SC', sans-serif;
   }
 
   .final {
-    margin-left: auto;
-    margin-right: auto;
+    @include margin-auto;
     text-align: center;
 
     p {
+      @include margin-auto;
       width: 320px;
-      margin-left: auto;
-      margin-right: auto;
     }
   }
 
   footer img {
+    @include margin-auto;
     margin-top: 85px;
     width: 80%px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
   }
 
   header {
+    @include margin-auto;
     background-image: url("images/head-lanterns.png");
     display: flex;
     background-repeat: no-repeat;
     width: 320px;
-    margin-left: auto;
-    margin-right: auto;
 
     h1 {
       font-size: 2.6em;
       color: #ffffff;
       font-family: $main-font-family;
-      font-weight: 300;
+      font-weight: $font-weight-regular;
       text-align: center;
       line-height: 25px;
       margin: 2px 0 0;
@@ -171,12 +168,11 @@ $main-font-family: 'Alegreya Sans SC', sans-serif;
   }
 
   main {
+    @include margin-auto;
     width: 320px;
-    margin-left: auto;
-    margin-right: auto;
 
     p {
-      font-family: 'Libre Franklin', sans-serif;
+      font-family: $body-font-family;
       font-size: 1.4em;
       font-weight: 100;
       line-height: 20px;
@@ -270,11 +266,10 @@ $main-font-family: 'Alegreya Sans SC', sans-serif;
     }
 
     ul {
+      @include margin-auto;
       display: flex;
       flex-flow: wrap;
       width: 90%;
-      margin-left: auto;
-      margin-right: auto;
     }
   }
 
